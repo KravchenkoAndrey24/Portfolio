@@ -1,0 +1,28 @@
+.mainBlockBg {
+	height: 250px;
+	width: 100%;
+	background-color: rgb(220, 145, 95);
+}
+.block__flex {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 250px;
+}
+.block__flex__item:last-child {
+	font-weight: 700;
+}
+.block__flex__item__block {
+	display: flex;
+	justify-content: space-between;
+	min-width: 60%;
+	border: 2px solid;
+}
+.block__flex__item__block__item {
+	width: 70px;
+	height: 70px;
+	background-color: chocolate;
+}

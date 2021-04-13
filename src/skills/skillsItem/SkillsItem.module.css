@@ -1,0 +1,26 @@
+.flex__content__item {
+	flex: 0 1 auto;
+	display: flex;
+	width: 30%;
+	min-width: 340px;
+	min-height: 350px;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid;
+}
+.flex__content__item__photo {
+	width: 80px;
+	height: 80px;
+	background-color: grey;
+}
+.flex__content__item__title {
+	margin: 50px 0px;
+}
+.flex__content__item__text {
+	flex: 0 1 auto;
+	border: 1px solid blue;
+	width: 100%;
+	text-align: center;
+	flex: 1 0 auto;
+	min-height: 33%;
+}

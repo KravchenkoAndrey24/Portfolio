@@ -1,0 +1,26 @@
+.mainBlockBg {
+	min-height: 200px;
+	width: 100%;
+	background-color: rgb(206, 213, 78);
+}
+.block__flex__container {
+	padding: 60px;
+}
+.block__flex {
+	border: 2px solid;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	min-height: 200px;
+}
+.block__flex__item:first-child {
+	text-align: center;
+}
+.block__flex__item button {
+	font-size: 24px;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
